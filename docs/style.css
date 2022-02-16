@@ -1,7 +1,9 @@
 html, body{margin: 0 auto; background-color: rgb(53, 143, 88); font-family: 'Oswald', sans-serif;}
 
-.topBar{top: 0; background-color: black; padding: 10px; float: left;}
+.topBar{top: 0; background-color: black; padding: 10px; width: 100%;}
 
-#websiteTitle{color:white; text-align: center;}
+#websiteTitle{color:white; text-align: center; width: wrap; position: relative; left: 2%;}
 
-span{color: white; font-size: 10px; z-index: 3;}
+span{color: white; font-size: 24px; top: 0;}
+
+.top{display: inline-block; margin-left: 10px; position: relative; left: 45%;}
