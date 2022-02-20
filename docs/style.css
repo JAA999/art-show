@@ -1,6 +1,6 @@
 html, body{margin: 0 auto; background-color: rgb(236, 222, 222); font-family: 'Oswald', sans-serif;}
 
-.topBar{top: 0; background-color: black; width: 100%;}
+#topBar{top: 0; background-color: black; width: 100%;}
 
 #websiteTitle{color:white; text-align: center; width: wrap; position: relative; left: 1%;}
 
@@ -8,11 +8,34 @@ span{color: white; font-size: 36px; top: 0;}
 
 .top{display: inline-block; margin-left: 10px; position: relative; left: 78%;}
 
-.artistBio{
+#menuExpander{background-color: black; color: white; border: none;}
+
+#artistBio{
+    height: 100%;
     display: grid;
     grid-template-areas: "artist" "content";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100%;
+}
+
+#sidebar{
+    visibility: hidden; 
+    background-color: blanchedalmond; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin: 0;
+    width: 12%;
+}
+
+#sidebar a{
+    position: relative;
+    top: 2%;
+    padding: 8px 30px 20px 32px;
+    font-size: 1.5rem;
+    text-align: right;
+    display: block;
 }
 
 #bio{
