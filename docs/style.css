@@ -1,62 +1,15 @@
-html, body{margin: 0 auto; background-color: rgb(236, 222, 222); font-family: 'Oswald', sans-serif;}
+html, body{margin: 0 auto; background-color: #D3DCF2; font-family: 'Oswald', sans-serif;}
 
-#topBar{top: 0; background-color: black; width: 100%;}
+#topBar{position: fixed; top: 0; background-color: black; width: 100%; height: 10%; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
 
-#websiteTitle{color:white; text-align: center; width: wrap; position: relative; left: 1%;}
+#topBar p{padding: 5px 0px 10px 20px; font-size: 2rem; color: white;}
 
-span{color: white; font-size: 36px; top: 0;}
+.material-icons-round{color: white;}
 
-.top{display: inline-block; margin-left: 10px; position: relative; left: 78%;}
+.material-icons-outlined{color: white;}
 
-#menuExpander{background-color: black; color: white; border: none;}
+#navIcons{padding-right: 20px;}
 
-#artistBio{
-    height: 100%;
-    display: grid;
-    grid-template-areas: "artist" "content";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100%;
-}
+#navIcons a{padding-left: 5px;}
 
-#sidebar{
-    visibility: hidden; 
-    background-color: blanchedalmond; 
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
-    margin: 0;
-    width: 12%;
-}
 
-#sidebar a{
-    position: relative;
-    top: 2%;
-    padding: 8px 30px 20px 32px;
-    font-size: 1.5rem;
-    text-align: right;
-    display: block;
-}
-
-#bio{
-    grid-area: "content"; 
-    text-align: center;
-    width: 75%;
-    padding: 50px 10px;
-    background-color: black; 
-    color: whitesmoke; 
-    position: relative; 
-    align-self: center; 
-    justify-content: center;
-    margin-top: 20%;
-} 
-
-.artistImages{
-    grid-area: "artist";
-    position: relative;
-    margin-top: 20%;
-    margin-left: 200px;
-}
-
-#sassyJackie{margin-left: -50px;}
-.artist{box-shadow: 10px 10px rgb(160, 109, 109);}
